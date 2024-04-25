@@ -21,9 +21,9 @@ public class Main {
         String hostIp = AddressUtils.getHostIp();
         System.out.println(hostIp);
         CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress(
-                        "42.193.12.204", //canal-server的ip地址
+                        "81.70.20.135", //canal-server的ip地址
                         11111),
-                "woods_test",
+                "example",
                 "canal",
                 "canal");
         int batchSize = 1000;
